@@ -1,6 +1,6 @@
 # JavaScript 1 - Module 1
 
-## Lesson Task 1
+## Lesson Task 1 Answers
 
 ### Question 1
 
@@ -70,7 +70,9 @@ Convert the following to use backticks:
 ```js
 const firstName = "Florence";
 
-const introduction = "Hello, my name is " + firstName;
+const introduction = "Hello, my name is " + firstName + ".";
+
+console.log(introduction);
 ```
 
 ### Question 8
@@ -82,9 +84,11 @@ const title = "Big Technical Event";
 
 const whatToHave = "good time";
 
-const welcome = "Welcome! \n]\n" +
+const welcome = "Welcome! \n\n" +
                 "This " + title + " is starting today.\n\n" +
                 "Have a " + whatToHave + "!";
+
+console.log(welcome);
 ```
 
 ### Question 9
@@ -93,7 +97,7 @@ Log each property in the object below.
 
 ```js
 const car = {
-    "paint-colour: "red",
+    "paint-colour": "red",
     "number of wheels": 3
 };
 ```
