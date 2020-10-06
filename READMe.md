@@ -104,7 +104,7 @@ const car = {
 
 ### Question 10
 
-Add a function (method) called getExpired to the object below that logs the price of the object.
+Add a function (method) called getExpired to the object below that logs the expired status of the object.
 
 Call the function after adding it.
 
